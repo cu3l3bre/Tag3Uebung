@@ -114,8 +114,6 @@ namespace Tag3Uebung
                 }
             }
 
-
-
             while (!vierteZahlOK)
             {
                 Console.Write("\nGib mal Komma-Zahl ein Achtung zb 3,3: ");
@@ -135,10 +133,7 @@ namespace Tag3Uebung
                 }
             }
 
-
-
-            double dErgbnis = zahl4 + 2.1;
-
+            Double dErgbnis = zahl4 + 2.1;
             Console.WriteLine("Rechne deine zahl + 2,1: {0}", dErgbnis);
 
 
